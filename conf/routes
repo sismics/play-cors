@@ -1,0 +1,11 @@
+# import these default routes as :
+# *         /               module:cors
+# ~~~~
+
+# Workaround for CORS preflight requests
+OPTIONS /{a}                                      Cors.preflight
+OPTIONS /{a}/{b}                                  Cors.preflight
+OPTIONS /{a}/{b}/{c}                              Cors.preflight
+OPTIONS /{a}/{b}/{c}/{d}                          Cors.preflight
+OPTIONS /{a}/{b}/{c}/{d}/{e}                      Cors.preflight
+OPTIONS /{a}/{b}/{c}/{d}/{e}/{f}                  Cors.preflight
