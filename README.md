@@ -17,7 +17,16 @@ This plugin adds [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_shari
 ```
 require:
     - cors -> cors 0.1
+
+repositories:
+    - cors:
+        type:       http
+        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+        contains:
+            - cors -> *
+
 ```
+####  Run the `play deps` command
 ####  Add the routes to your `routes` file
 
 ```
