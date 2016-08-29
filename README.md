@@ -1,6 +1,3 @@
-# play-cors
-Enable CORS requests in Play! Framework
-
 # play-cors plugin
 
 This plugin adds [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) support to Play! Framework 1 applications.
