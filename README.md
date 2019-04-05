@@ -13,12 +13,12 @@ This plugin adds [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_shari
 
 ```
 require:
-    - cors -> cors 0.1
+    - cors -> cors 1.0.0
 
 repositories:
-    - cors:
-        type:       http
-        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+    - sismicsNexusRaw:
+        type: http
+        artifact: "https://nexus.sismics.com/repository/sismics/[module]-[revision].zip"
         contains:
             - cors -> *
 
