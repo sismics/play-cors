@@ -1,4 +1,4 @@
-self: play -> cors 0.1
+self: play -> cors 1.0.0
 
 require:
     - play
