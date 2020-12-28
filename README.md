@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-cors.svg?style=flat-square)](https://github.com/sismics/play-cors/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-cors plugin
 
 This plugin adds [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) support to Play! Framework 1 applications.
@@ -13,7 +16,7 @@ This plugin adds [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_shari
 
 ```
 require:
-    - cors -> cors 1.0.0
+    - cors -> cors 1.1.0
 
 repositories:
     - sismicsNexusRaw:
